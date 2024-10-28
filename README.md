@@ -10,6 +10,21 @@ Note: From what I understand, MySQL80 needs to be running in the background, but
 
 I ask that everyone who finds it useful connects with me on [LinkedIn](https://www.linkedin.com/in/mateusfsrgsouza/). I’m a Systems Analysis student and, like many of you, still in the learning phase.
 
+### Usage Instructions
+First, enter the database credentials and the Gemini API Key. Then, perform a query via prompt, making sure to use the correct column and table names. Example: "Query the sales table for the price and state columns."
+
+Below is the download link for the software file, but if you prefer to create it directly from Python, enter the following in the terminal:
+
+```bash
+pyinstaller --onefile --windowed appSQLV1.py
+```
+Make sure you're in the correct directory where the file is located. Due to the tkinter library, your antivirus may flag it as a false positive; if that happens, temporarily pause your antivirus or remove the .exe file from quarantine.
+
+
+Don't forget to install the required libraries in Python!
+
+[Download](https://drive.google.com/drive/folders/1vB45GArlkuz0HyOg8HcOzrBuaSDYcMIz?usp=drive_link)
+
 _________________________________________________________________________________________________________________________________________________________
 Olá a todos, criei um software enquanto estava em um Bootcamp da Deeplearning.ai que realiza consultas e operações dentro de um banco de dados MySQL. Quero agradecer também a BRAINS - Brazilian AI Networking por ter apresentado e nos guiado no conteúdo de aprendizado. 
 
